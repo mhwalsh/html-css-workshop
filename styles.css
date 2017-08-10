@@ -3,6 +3,21 @@ body {
 }
 
 article {
- border: 2px solid green; 
- border-radius: 10px;
+  width: 50%;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* show difference between class and id */
+.blog {
+  background-color: blue;
+}
+
+.garden-content {
+  background-color: white;
+}
+
+#first-post {
+  border: 16px solid yellow;
 }
